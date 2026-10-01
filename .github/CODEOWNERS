@@ -1,0 +1,5 @@
+# Every change is reviewed by a maintainer.
+* @innerluxesdev
+
+# The analysis decides every number and what is masked; changes need extra care.
+/src/analyze.js @innerluxesdev
