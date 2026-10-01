@@ -1,0 +1,11 @@
+# Made-up conversations of a support chatbot for an online shop. One conversation per line.
+{"id": "c01", "topic": "orders", "messages": [{"role": "user", "text": "Where is my order?"}, {"role": "bot", "text": "Your order shipped yesterday and arrives Friday."}]}
+{"id": "c02", "topic": "orders", "messages": [{"role": "user", "text": "Can I change the delivery address?"}, {"role": "bot", "text": "Yes, until the order ships. I have updated it."}]}
+{"id": "c03", "topic": "returns", "messages": [{"role": "user", "text": "How do I return a jacket?"}, {"role": "bot", "text": "Open your order and choose Return. A label is emailed to you."}]}
+{"id": "c04", "topic": "returns", "messages": [{"role": "user", "text": "Can I return a gift without the receipt?"}, {"role": "bot", "text": "I'm not sure about gifts without a receipt."}, {"role": "user", "text": "I want to talk to a real person"}, {"role": "agent", "text": "Hi, I can help with that."}]}
+{"id": "c05", "topic": "returns", "messages": [{"role": "user", "text": "Can I return a gift without the receipt??"}, {"role": "bot", "text": "I don't know the answer to that."}], "handover": true}
+{"id": "c06", "topic": "billing", "messages": [{"role": "user", "text": "I was charged twice, my card is 4111 1111 1111 1111"}, {"role": "bot", "text": "I can't help with payment disputes here."}, {"role": "agent", "text": "Let me check the charges for you."}]}
+{"id": "c07", "topic": "billing", "messages": [{"role": "user", "text": "Send the invoice to anna@example.com"}, {"role": "bot", "text": "Done, the invoice is on its way."}]}
+{"id": "c08", "topic": "orders", "messages": [{"role": "user", "text": "Do you ship to Norway?"}, {"role": "bot", "text": "Yes, we ship to Norway."}]}
+{"id": "c09", "topic": "account", "messages": [{"role": "user", "text": "Reset my password"}, {"role": "bot", "text": "I've sent a reset link to your email."}]}
+{"id": "c10", "topic": "returns", "messages": [{"role": "user", "text": "can I return a gift without the receipt"}, {"role": "bot", "text": "Could you rephrase that?"}, {"role": "user", "text": "agent please"}], "handover": true}
